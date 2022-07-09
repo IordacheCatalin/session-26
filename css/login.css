@@ -1,0 +1,43 @@
+.logo {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    gap: 48px;
+  }
+  
+  /* .container > div */
+  .container .left,
+  .container .right {
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+  
+  .container .right img {
+    max-width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  form label {
+    margin-bottom: -8px;
+  }
+  
+  button {
+    min-height: 48px;
+    font-size: 1.953rem;
+  }
+
+  .login-error{
+    color: red;
+    display: none;
+  }

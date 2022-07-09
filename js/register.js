@@ -25,6 +25,7 @@ const registerUser = (event) => {
     .then((res) => res.json())
     .then((res) => {
       // another fetch for login!
+      console.log(res);
     })
     .catch((err) => console.error(err));
 
